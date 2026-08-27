@@ -32,7 +32,7 @@ Supported HSTR_EXT wildcards:
 + 90 15: Relative jmp by UINT16 input
 + 90 16: Relative jmp by UINT32 input
 + 90 18: Optional JMP ADDR
-+ 90 19 XX YY: Match exact XX bytes, except for the completed regex length YY
++ 90 19 XX YY: Match exact XX bytes, except the completed regex length YY
 + 90 1C XX YY: Match exact YYXX Alphanumeric bytes
 + 90 1D XX YY: Match up to YYXX Alphanumeric bytes
 + 90 1E XX YY: Match exact YYXX HexSet bytes
