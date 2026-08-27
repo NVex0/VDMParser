@@ -10,6 +10,7 @@ Currently supports these signatures:
 + SIGNATURE_TYPE_FRIENDLYFILE_SHA512
 + SIGNATURE_TYPE_FRIENDLYFILE_SHA256
 + SIGNATURE_TYPE_VDLL_X86
++ SIGNATURE_TYPE_LUASTANDALONE
 + Supports every HSTR/HSTR_EXT variant.
 
 Supported HSTR_EXT wildcards:
@@ -42,3 +43,4 @@ To do:
 + Observing extracted VDM reveals there are more wildcards than just those up to 0x20. A future update will parse wildcards starting from 90 20.
 + Add more parsing modules for different signatures.
 + Fix the `!InfrastructureShared` and `!Infrastructure` formats.
+
